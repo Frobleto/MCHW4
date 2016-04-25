@@ -1,5 +1,7 @@
 package com.example.luis.homework4;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import java.util.ArrayList;
@@ -16,6 +18,7 @@ import android.widget.Toast;
 import android.widget.AdapterView.OnItemSelectedListener;
 
 public class buildings extends AppCompatActivity implements OnItemSelectedListener{
+
     private WebView webView;
 
     @Override
@@ -32,12 +35,13 @@ public class buildings extends AppCompatActivity implements OnItemSelectedListen
 
         // Spinner drop down elements
         List<String> catagories = new ArrayList<String>();
-        catagories.add ("Tower/Main Building");
-        catagories.add ("SAC");
-        catagories.add ("Jester");
-        catagories.add ("PCL");
-        catagories.add ("SSB");
-        catagories.add ("Union");
+        //catagories.add ("Please select building: ");
+        catagories.add ("mai");
+        catagories.add ("sac");
+        catagories.add ("jes");
+        catagories.add ("pcl");
+        catagories.add ("ssb");
+        catagories.add ("unb");
 
 
         // creating adapter for spinner
@@ -58,6 +62,12 @@ public class buildings extends AppCompatActivity implements OnItemSelectedListen
 
         // Showing selected spinner item
         Toast.makeText(parent.getContext(), "Selected: " + item, Toast.LENGTH_LONG).show ();
+
+        //adding Intent
+        Intent i = new Intent (Intent.ACTION_VIEW);
+
+        i.setData (Uri.parse("http://www.utexas.edu/maps/main/buildings/" +item+ ".html"));
+        startActivity(i);
 
     }
     public void onNothingSelected(AdapterView<?> arg0){

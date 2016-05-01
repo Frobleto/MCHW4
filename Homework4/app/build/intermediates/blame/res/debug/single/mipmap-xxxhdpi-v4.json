@@ -1,10 +1,14 @@
 [
     {
-        "merged": "/Users/jr_raiders_23/Documents/MobileComp/HW4/Homework4/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
-        "source": "/Users/jr_raiders_23/Documents/MobileComp/HW4/Homework4/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\jr_raiders_23\\Documents\\MobileComp\\HW4\\Homework4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\jr_raiders_23\\Documents\\MobileComp\\HW4\\Homework4\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/jr_raiders_23/Documents/MobileComp/HW4/Homework4/C:\\Users\\Luis\\Documents\\Homework4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
-        "source": "/Users/jr_raiders_23/Documents/MobileComp/HW4/Homework4/C:\\Users\\Luis\\Documents\\Homework4\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\jr_raiders_23\\Documents\\MobileComp\\HW4\\Homework4\\C:\\Users\\Luis\\Documents\\Homework4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\jr_raiders_23\\Documents\\MobileComp\\HW4\\Homework4\\C:\\Users\\Luis\\Documents\\Homework4\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Documents\\MCHW4\\Homework4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Luis\\Documents\\MCHW4\\Homework4\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     }
 ]
